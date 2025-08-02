@@ -41,7 +41,7 @@ Still, I hope this tiny attempt made you smile  because it’s built not just w
             <p className="text-muted-foreground leading-relaxed">
               congratulations on completing one amazing year as assistant professor! 🎉
               <br/>
-              your guidance and inspiration for me 
+              your guidance and inspiration are too important for someone like me 
               <br/>
               wishing you many more years of inspiring minds and sharing wisdom! 🌟
             </p>
