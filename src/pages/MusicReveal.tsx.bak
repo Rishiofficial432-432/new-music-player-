@@ -45,10 +45,9 @@ const MusicReveal = () => {
               feel how each note resonates with moments of learning and growth... ✨
             </p>
             <p className="text-muted-foreground mb-4">
-              like soft whispers in lowercase, this melody speaks of sincere gratitude... 💫
-            
-<br> Mam if you want hint of then i ll just let on line out which is in this song and that line is </br>
-<br> "YOU Can say that i m fool and i dont know very much, but i think they call, oh i think call, yes i think they calll......this " </br> </p>
+              like soft whispers in lowercase, this melody speaks of sincere gratitude... 💫 Mam if you want hint of then i ll just let on line out which is in this song and that line is 
+"YOU Can say that i m fool and i dont know very much, but i think they call, oh i think call, yes i think they calll......this " 
+            </p>
             <div className="animate-float">
               <span className="text-6xl">🎼</span>
             </div>
