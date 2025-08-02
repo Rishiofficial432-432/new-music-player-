@@ -35,16 +35,27 @@ Still, I hope this tiny attempt made you smile  because it’s built not just w
           <div className="text-sm text-muted-foreground">
             <p>Thank you for playing "Decode the Vibe" 🎮💕</p>
           </div>
+
+          <div className="mt-8 p-6 border-t border-primary/20">
+            <h3 className="text-xl font-semibold text-primary-foreground mb-3 glow-text">✨ special note ✨</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              congratulations on completing one amazing year as assistant professor! 🎉
+              <br/>
+              your guidance and inspiration have made this journey memorable for all of us.
+              <br/>
+              wishing you many more years of inspiring minds and sharing wisdom! 🌟
+            </p>
+          </div>
         </div>
       </div>
       
       <div className="fixed top-4 right-4 animate-float">
-        <span className="text-2xl">🌟</span>
+        <span className="text-2xl">�</span>
       </div>
       <div className="fixed bottom-4 left-4 animate-float" style={{
       animationDelay: '1s'
     }}>
-        <span className="text-2xl">💫</span>
+        <span className="text-2xl">✨</span>
       </div>
     </div>;
 };
