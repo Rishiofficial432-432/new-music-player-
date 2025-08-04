@@ -28,6 +28,10 @@ Still, I hope this tiny attempt made you smile  because it’s built not just w
         </div>
 
         <div className="mt-12 space-y-4">
+          <GameButton variant="romantic" size="lg" onClick={() => navigate("/gift-reveal")} className="animate-glow">
+            🎁 Reveal Your Gift 🎁
+          </GameButton>
+          
           <GameButton variant="romantic" size="lg" onClick={() => navigate("/")} className="animate-glow">
             ✨ Play Again ✨
           </GameButton>
@@ -41,9 +45,9 @@ Still, I hope this tiny attempt made you smile  because it’s built not just w
             <p className="text-muted-foreground leading-relaxed">
               congratulations on completing one amazing year as assistant professor! 🎉
               <br/>
-              your guidance and inspiration are too important for someone like me 
+              your dedication to teaching and inspiring students is truly remarkable.
               <br/>
-              wishing you many more years of inspiring minds and sharing wisdom! 🌟
+              wishing you continued success and many more years of excellence! 🌟
             </p>
           </div>
         </div>

@@ -10,6 +10,9 @@ import MusicReveal from "./pages/MusicReveal";
 import AnswerGuess from "./pages/AnswerGuess";
 import Success from "./pages/Success";
 import FailHint from "./pages/FailHint";
+import GiftReveal from "./pages/GiftReveal";
+import SmileConfirmation from "./pages/SmileConfirmation";
+import HappyEnding from "./pages/HappyEnding";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +31,9 @@ const App = () => (
             <Route path="/answer-guess" element={<AnswerGuess />} />
             <Route path="/success" element={<Success />} />
             <Route path="/fail-hint" element={<FailHint />} />
+            <Route path="/gift-reveal" element={<GiftReveal />} />
+            <Route path="/smile-confirmation" element={<SmileConfirmation />} />
+            <Route path="/happy-ending" element={<HappyEnding />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
