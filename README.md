@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
+# Vibe Decoder Surprise
 
-## Project info
+A fun guessing game with music and surprise messages.
 
-**URL**: https://lovable.dev/projects/218245fe-1e92-47ad-8689-dd8c0ab3fa6b
+## Features
 
-## How can I edit this code?
+- Interactive number guessing game
+- Music reveal with instrumental tracks
+- Gift reveal feature with complete flow
+- Beautiful UI with animations
+- Responsive design
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/218245fe-1e92-47ad-8689-dd8c0ab3fa6b) and start prompting.
+- Node.js (version 16 or higher)
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+1. Clone the repository:
+```bash
+git clone https://github.com/Rishiofficial432-432/new-music-player-.git
+cd new-music-player-
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Game Flow
 
-**Use GitHub Codespaces**
+1. **Home** - Welcome screen
+2. **Guess Number** - Number guessing challenge
+3. **Music Reveal** - Listen to instrumental music
+4. **Answer Guess** - Guess the music theme
+5. **Success** - Congratulations message
+6. **Gift Reveal** - Special surprise feature
+7. **Smile Confirmation** - Interactive confirmation
+8. **Happy Ending** - Final celebration
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Required Assets
 
-## What technologies are used for this project?
+Add these files to the `public/assets/` folder for the complete experience:
 
-This project is built with:
+- `gift-image.jpg` - Gift image to be revealed
+- `happy-gif.gif` - Celebration GIF for final page
+- `happy-bgm.mp3` - Background music for final page
 
-- Vite
+## Technologies Used
+
+- React 18
 - TypeScript
-- React
-- shadcn-ui
+- Vite
 - Tailwind CSS
+- React Router
+- Shadcn/ui Components
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/218245fe-1e92-47ad-8689-dd8c0ab3fa6b) and click on Share -> Publish.
+This project can be deployed to any static hosting platform:
 
-## Can I connect a custom domain to my Lovable project?
+- Vercel
+- Netlify
+- GitHub Pages
+- Firebase Hosting
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the MIT License.
